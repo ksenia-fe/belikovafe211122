@@ -1,0 +1,16 @@
+.usersList {
+    width: 30%;
+    border: 1px solid #b0b0b0;
+    background-color: #f0f8f8;
+    overflow-x:hidden;
+    overflow-y:auto;
+}
+
+.userList__button {
+    width: 90%;
+    margin: 5%;
+    padding: 10px;
+    background-color: #f0f8f8;
+    border: 1px solid #b0b0b0;
+    border-radius: 7px;
+}

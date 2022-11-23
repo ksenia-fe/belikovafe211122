@@ -1,0 +1,47 @@
+.user {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 20px;
+  border-bottom: 0.5px solid #b0b0b0;
+}
+
+.user_info {
+  display: flex;
+}
+
+.user_photo {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: none;
+}
+
+.user_name {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 5px;
+  margin-left: 10px;
+  width: 100px;
+}
+
+.nickname {
+  color: #515660;
+  font-size: 13px;
+  width: 100px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.user_viewButton {
+  width: 15%;
+  margin: 5px 0;
+  background-color: #f0f8f8;
+  border: 1px solid #b0b0b0;
+  border-radius: 7px;
+  width: 50px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
